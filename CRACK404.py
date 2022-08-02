@@ -20,8 +20,7 @@ import os
 os.system("clear")
 print("""
 \033[36m
- WELCOME TO TOOLS CYBER CRACK 404  
-""")
+ WELCOME TO TOOLS CYBER CRACK 404 """)
 
 ip = str(input(" IP SERVER:"))
 port = int(input(" PORT SERVER:"))
